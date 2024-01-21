@@ -4,6 +4,15 @@
 .vscode/
 .idea/
 
+# Virtual environment for Python
+venv/
+
+# Build artifacts for Python
+build/
+
+
+
+
 # Compiled Python files
 *.pyc
 *.pyo
@@ -52,3 +61,6 @@ docker-compose.override.yml
 
 # Environment variables
 .env
+
+# Virtual Environment
+venv
