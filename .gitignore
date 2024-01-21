@@ -1,0 +1,54 @@
+# .gitignore
+
+# Editor-specific files
+.vscode/
+.idea/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# Compiled Java files
+*.class
+
+# Compiled C/C++ files
+*.o
+*.out
+
+# Logs
+*.log
+logs/
+log.txt
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Database files
+*.sqlite
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Virtual environment for Node.js
+frontend/node_modules/
+
+# Build artifacts for Node.js
+frontend/build/
+
+# npm and Yarn lock files
+package-lock.json
+yarn.lock
+
+# Visual Studio Code settings
+.vscode/settings.json
+
+# Docker Compose files
+docker-compose.override.yml
+
+# Environment variables
+.env
